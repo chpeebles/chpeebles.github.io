@@ -230,6 +230,18 @@ footer {
     font-weight: 300;
 }
 
+/* ------ PHOTO GALLERY ------ */
+
+#gallery {
+    display: inline-block;
+}
+
+#gallery > img {
+    width: 29%;
+    float: left;
+}
+
+
 @media only screen and (min-width: 768px) {
 
     main {
