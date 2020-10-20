@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Avenir', sans-serif;
+    font-family: azo-sans-web, calibri, Arial, sans-serif; 
 }
 
 .wrapper {
@@ -21,6 +21,11 @@ header {
     background-color: #231f20;
     padding: 10px;
 }
+
+img {
+    width: 100%;
+    display: block;
+    }
 
 nav a:visited, nav a:link{
     color: #ffffff;
@@ -87,20 +92,16 @@ h3 a:visited, h3 a:link {
     color: #e07c63;
 }
 
+/* ------ SKILLS ------ */
+
 #skills a:visited, #skills a:link{
     color: #231f20;
     text-decoration: none;
 }
 
 #skills a:hover {
-    background-color: #e7e6e6;
-    border-radius: 8px;
-    padding: .2em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    transition: .5s;
+    color: #e07c63;
+    transition: .5s color;
 }
 
 main {
@@ -109,26 +110,29 @@ main {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 4em;
+    font-weight: 500;
     color: #231f20;
     padding-bottom: .2em;
 }
 
 h2 {
     font-size: 2em;
+    font-weight: 500;
     color: #e07c63;
     text-align: center;
 }
 
 h3 {
     font-size: 1.25em;
+    font-weight: 500;
     color: #e07c63;
     text-align: center;
 }
 
 h4 {
     font-style: italic;
-    font-weight: 100;
+    font-weight: 300;
     font-size: .8em;
     text-align: center;
     padding-bottom: 1em;
@@ -162,18 +166,16 @@ footer {
 }
 
 /* ------ INDEX PAGE ------ */
+
 #mainphoto {
-    width: 60%;
-    float: left;
     margin-right: 1.5em;
     margin-top: 1em;
     margin-left: 0;
-    margin-bottom: 3em;
+    margin-bottom: 3em;   
 }
 
 #title {
     display: block;
-    width: 40%;
     margin-top: 3em;
     margin-bottom: 3em;
 }
