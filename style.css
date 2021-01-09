@@ -93,4 +93,6 @@ footer {
     background: #efefef;
     color: #333232;
     font-weight: 300;
+    overflow: hidden;
+    padding-top:20px;
 }
