@@ -21,6 +21,12 @@
         <!-- FONT -->
         <link rel="stylesheet" href="https://use.typekit.net/xsk7shi.css">
 
+        <!-- MY JS -->
+        <script src="fadescroll.js"></script> 
+
+        <!-- AOS LIBRARY -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
         <title>Christina Peebles | Home</title>
     </head>
     <body>
@@ -49,10 +55,10 @@
         </div>
 
         <!-- MAIN IMAGE-->
-        <img class="home-image" src="images/logo-banner.png" alt="christina peebles" width=100%/>
+        <img class="home-image top" src="images/logo-banner.png" alt="christina peebles" width=100%/>
 
         <!-- BIO SECTION -->
-        <div class="container main-container">
+        <div class="container main-container" data-aos="fade-up" data-aos-duration="3000">
             <div class="row main_row">
                 <div class="col-6">
                     <h1>
@@ -71,7 +77,7 @@
                     </p>
                 </div>
                 <div class="col-6">
-                    <img class="home-image" src="images/me_z.jpg" alt="christina and her boyfriend at the beach" width=100%/>
+                    <img src="images/me_z.jpg" alt="christina and her boyfriend at the beach" width=100%/>
                 </div>
             </div>
         </div>
@@ -121,5 +127,9 @@
                 </div>
             </div>
         </footer>>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>   
+            AOS.init(); 
+         </script>
     </body>
 </html>

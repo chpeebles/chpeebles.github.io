@@ -16,7 +16,6 @@ body {
 
 .home-image {
     margin-top: .25em;
-    margin-bottom: 4em;
 }
 
 h1 {
@@ -54,6 +53,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3em;
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
@@ -68,6 +68,7 @@ p {
 .home_btns {
     vertical-align: middle;
     margin-bottom: 3.5em;
+    margin-top: 4em;
 }
 
 .btn2 {
@@ -95,4 +96,12 @@ footer {
     font-weight: 300;
     overflow: hidden;
     padding-top:20px;
+}
+
+/* TRIAL */
+
+.top {
+    margin: 0;
+    position: relative;
+    opacity: 1;
 }
