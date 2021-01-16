@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 15px;
     text-align: left;
     color:#333232;
 }
@@ -24,7 +24,7 @@ h3 {
 h4 {
     margin-top: -.4em;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 13px;
     text-align: left;
     color:#333232ab;
 }
@@ -38,7 +38,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3em;
 }
 
 /* BUTTONS */
@@ -59,7 +58,7 @@ p {
 
 .home_btns {
     vertical-align: middle;
-    margin-bottom: 3.5em;
+    margin-bottom: 6em;
     margin-top: 4em;
 }
 
@@ -77,13 +76,19 @@ p {
     text-align: center;
 }
 
-.proj_img {
+.thumbnail {
+    transition: box-shadow .3s;
+    float: left;
     margin-bottom: .75em;
+}
+
+.thumbnail:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 
 /* FOOTER */
 footer {
-    margin-top: 4em;
+    margin-top: 6em;
     background: #efefef;
     color: #333232;
     font-weight: 300;
