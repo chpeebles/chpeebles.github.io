@@ -101,8 +101,13 @@ footer {
     padding-top:20px;
 }
 
-/* IMAGE FADE IN */
+/* ABOUT PAGE*/
+.about {
+    margin-top:3em;
+}
 
+
+/* IMAGE FADE IN */
 .top {
     margin: 0;
     position: relative;
