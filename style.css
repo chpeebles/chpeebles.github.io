@@ -40,12 +40,17 @@ p {
     align-items: center;
 }
 
+/* NAVIGATION BAR */
+.navbar-nav li {
+    padding-right: 20px;
+}
+
 /* BUTTONS */
 .btn-primary, .btn-primary:active, .btn-primary:visited {
     background-color: #e17c63 !important;
     border:  #e17c63 !important;
     font-weight: 500;
-    height: 2em;
+    height: 2.2em;
     width: 6em;
     align-items: center;
     color: white !important;
