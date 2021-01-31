@@ -71,6 +71,10 @@ p {
     margin-left: 1.75em;
 }
 
+.btn-return {
+    margin-left: 2.5em;
+}
+
 /* WORK SECTION */
 .work_header {
     text-align: center;
