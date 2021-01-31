@@ -125,6 +125,7 @@ footer {
 .work_bio {
     margin-left: 2.5em;
     margin-right: 2.5em;
+    font-size: 16px;
 }
 
 .card-columns {
@@ -139,6 +140,7 @@ footer {
     position: relative;
     opacity: 1;
 }
+
 
 /* MEDIA QUERIES */
 @media (max-width: 992px) {
