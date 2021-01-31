@@ -106,8 +106,16 @@ footer {
     margin-top:3em;
 }
 
-/* CONTACT PAGE */
+/* WORK PAGES */
+.title {
+    margin-top: 1.25em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
 
+.h-card {
+    margin-bottom: 2em !important;
+}
 
 /* IMAGE FADE IN */
 .top {
