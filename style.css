@@ -114,11 +114,23 @@ footer {
 .title {
     margin-top: 1.25em;
     margin-left: 1em;
-    margin-bottom: 1em;
+    margin-right: 1em;
+    margin-bottom: .75em;
 }
 
 .h-card {
     margin-bottom: 2em !important;
+}
+
+.work_bio {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+.card-columns {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    column-count: 2;
 }
 
 /* IMAGE FADE IN */
@@ -147,4 +159,27 @@ footer {
     }
 }
 
-/* Bootstrap Padding Fix */
+
+@media (min-width: 0px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
