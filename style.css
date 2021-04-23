@@ -152,7 +152,6 @@ footer {
     [class*="col-"] {
         padding: 1rem;
     }
-
 }
 @media (max-width: 576px) {
     [class*="col-"] {
