@@ -1,186 +1,121 @@
 body {
-    font-family: effra, sans-serif; 
+  font-family: effra, sans-serif;
 }
 
-/* COPY */
 h1 {
-    font-weight:700;
-    margin-bottom: 0em;
-    color:#333232;
+  font-weight: 700;
+  margin-bottom: 0em;
+  color: #333232;
 }
 
 h2 {
-    font-weight: 500;
-    font-size: 22px;
-    color: #e17c63;
+  font-weight: 500;
+  font-size: 22px;
+  color: #e17c63;
 }
 
 h3 {
-    font-size: 15px;
-    text-align: left;
-    color:#333232;
+  font-size: 15px;
+  text-align: left;
+  color: #333232;
 }
 
 h4 {
-    margin-top: -.4em;
-    font-weight: 300;
-    font-size: 13px;
-    text-align: left;
-    color:#333232ab;
+  margin-top: -0.4em;
+  font-weight: 300;
+  font-size: 13px;
+  text-align: left;
+  color: #333232ab;
 }
 
 p {
-    font-size: 14px;
-    color:#333232ab;
+  font-size: 14px;
+  color: #333232ab;
 }
 
 .main_row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* NAVIGATION BAR */
 .navbar-nav li {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 /* BUTTONS */
-.btn-primary, .btn-primary:active, .btn-primary:visited {
-    background-color: #e17c63 !important;
-    border:  #e17c63 !important;
-    font-weight: 500;
-    height: 2.2em;
-    width: 6em;
-    align-items: center;
-    color: white !important;
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #e17c63 !important;
+  border: #e17c63 !important;
+  font-weight: 500;
+  height: 2.2em;
+  width: 6em;
+  align-items: center;
+  color: white !important;
 }
 
 .btn-primary:hover {
-    background-color: #e17c63a8 !important;
-    transition: .5s;
+  background-color: #e17c63a8 !important;
+  transition: 0.25s;
 }
 
 .home_btns {
-    vertical-align: middle;
-    margin-bottom: 6em;
-    margin-top: 4em;
+  vertical-align: middle;
+  margin-bottom: 6em;
+  margin-top: 4em;
 }
 
 .btn2 {
-    margin-left: 1.75em;
+  margin-left: 1.75em;
 }
 
 .btn-return {
-    margin-left: 2.5em;
-}
-
-/* WORK SECTION */
-.work_header {
-    text-align: center;
-    margin-bottom: .75em;
-}
-
-.project_imgs {
-    text-align: center;
-}
-
-.thumbnail {
-    transition: box-shadow .3s;
-    float: left;
-    margin-bottom: .75em;
-}
-
-.thumbnail:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  margin-left: 2.5em;
 }
 
 /* FOOTER */
 footer {
-    margin-top: 6em;
-    background: #efefef;
-    color: #333232;
-    font-weight: 300;
-    overflow: hidden;
-    padding-top:20px;
-}
-
-/* ABOUT PAGE */
-.about {
-    margin-top:3em;
+  margin-top: 6em;
+  background: #efefef;
+  color: #333232;
+  font-weight: 300;
+  overflow: hidden;
+  padding-top: 20px;
 }
 
 /* WORK PAGES */
 .title {
-    margin-top: 1.25em;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: .75em;
-}
-
-.h-card {
-    margin-bottom: 2em !important;
-}
-
-.work_bio {
-    margin-left: 2.5em;
-    margin-right: 2.5em;
-    font-size: 16px;
-}
-
-.card-columns {
-    margin-left: 2.5em;
-    margin-right: 2.5em;
-    column-count: 2;
+  margin-top: 1.25em;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 0.75em;
 }
 
 /* IMAGE FADE IN */
 .top {
-    margin: 0;
-    position: relative;
-    opacity: 1;
+  margin: 0;
+  position: relative;
+  opacity: 1;
 }
-
 
 /* MEDIA QUERIES */
 @media (max-width: 992px) {
-    [class*="col-"] {
-        padding: 1rem;
-    }
+  [class*='col-'] {
+    padding: 1rem;
+  }
 }
 @media (max-width: 768px) {
-    [class*="col-"] {
-        padding: 1rem;
-    }
+  [class*='col-'] {
+    padding: 1rem;
+  }
 }
 @media (max-width: 576px) {
-    [class*="col-"] {
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-}
-
-
-@media (min-width: 0px) {
-    .card-columns {
-        column-count: 1;
-    }
-}
-
-@media (min-width: 768px) {
-    .card-columns {
-        column-count: 2;
-    }
-}
-
-@media (min-width: 992px) {
-    .card-columns {
-        column-count: 2;
-    }
-}
-
-@media (min-width: 1200px) {
-    .card-columns {
-        column-count: 2;
-    }
+  [class*='col-'] {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
