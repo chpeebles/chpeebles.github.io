@@ -13,22 +13,14 @@ h1 {
 
 h2 {
   font-weight: 500;
-  font-size: 22px;
+  font-size: 1.375rem;
   color: #75816b;
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 1rem;
   text-align: left;
   color: #333232;
-}
-
-h4 {
-  margin-top: -0.4em;
-  font-weight: 300;
-  font-size: 13px;
-  text-align: left;
-  color: #333232ab;
 }
 
 p {
@@ -80,12 +72,13 @@ img {
   margin-top: 4em;
 }
 
-.btn2 {
+.btn-margin-left {
   margin-left: 1.75em;
 }
 
-.btn-return {
-  margin-left: 2.5em;
+/* PROJECTS */
+#projects h2 {
+  font-size: 2rem;
 }
 
 /* FOOTER */
